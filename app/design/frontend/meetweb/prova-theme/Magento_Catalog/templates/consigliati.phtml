@@ -1,0 +1,26 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+/**
+ * @var $block \Magento\Framework\View\Element\Template
+ */
+?>
+
+<div class="consigliati__wrapper">
+    <h2>Consigliati</h2>
+    <div class="consigliati__container">
+        <?php
+            for($i = 1; $i < 6; $i++){
+                echo "
+                    <div class='consigliati__card'>
+                        <h3 class='consigliati__card-h3'>Consigliato numero: $i</h3>
+                    </div>
+                ";
+            }
+        ?>
+    </div>
+    <?php echo $block -> getChildHtml("mw.consigliati.child"); ?>
+</div>

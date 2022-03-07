@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/logo.png</argument>
+                <argument name="logo_alt" xsi:type="string">Custom Logo</argument>
+                <argument name="logo_width" xsi:type="number">250</argument>
+                <argument name="logo_height" xsi:type="number">45</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceContainer name="page.top">
+            <container name="mw.breadcrumbs.container" htmlClass="breadcrumbs__container" htmlTag="div" after="navigationMenu">
+                <block class="Magento\Theme\Block\Html\Breadcrumbs" name="breadcrumbs" as="breadcrumbs"/>
+            </container>
+        </referenceContainer>
+
+
+        <!-- MOVE -->
+        <!-- REMOVE -->
+
+    </body>
+</page>

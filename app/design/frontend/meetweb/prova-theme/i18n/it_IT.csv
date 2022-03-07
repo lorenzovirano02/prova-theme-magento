@@ -1,0 +1,49 @@
+"Registered Customers","Accesso Clienti"
+"* Required Fields","* Campi Obbligatori"
+"If you have an account, sign in with your email address.","Hai già un account? Fai l'accesso utilizzando la tua email."
+Email,Email
+Password,Password
+"Sign In","Accedi",module,Magento_Customer
+"Forgot Your Password?","Hai dimenticato la password?",module,Magento_Customer
+"Personal Information","Informazioni Personali",module,Magento_Customer
+"Sign Up for Newsletter","Iscriviti alla Newsletter",module,Magento_Customer
+"Address Information","Informazioni sull'indirizzo",module,Magento_Customer
+Address,Indirizzo
+"Street Address %1","Indirizzo %1",module,Magento_Customer
+"Please select a region, state or province.","Per piacere seleziona una regione, stato o provincia.",module,Magento_Customer
+"Sign-in Information","Informazioni di Accesso",module,Magento_Customer
+"Password Strength","Efficacia della Password",module,Magento_Customer
+"No Password","Nessuna Password Inserita",module,Magento_Customer
+"Confirm Password","Conferma la Password",module,Magento_Customer
+"Create an Account","Crea un Account",module,Magento_Customer
+Back,Indiettro
+Newsletter,Newsletter
+"Sign Up for Our Newsletter:","Iscriviti alla nostra Newsletter:",module,Magento_Customer
+"Show Password","Mostra la Password",module,Magento_Customer
+"Enter your email address","Inserisci il tuo indirizzo email",module,Magento_Customer
+Subscribe,Iscriviti
+"* Required Fields","* Campi Obbligatori",module,Magento_Customer
+"Please enter your email address below to receive a password reset link.","Per piacere inserisci il tuo indirizzo email per ricevere il link di reset della password",module,Magento_Customer
+"Reset My Password","Resetta la Password",module,Magento_Customer
+"Go back","Vai indietro",module,Magento_Customer
+"Please type the letters and numbers below","Per piacere inserisci le lettere e i numeri che vedi in basso",module,Magento_Captcha
+"Reload captcha","Ricarica captcha",module,Magento_Captcha
+"Search","Cerca",module,Magento_Search
+"Search entire store here...","Cerca all'interno dello store...",module,Magento_Search
+"Add to Cart","Aggiungi al Carrello",module,Magento_Catalog
+"New Products","Nuovi Prodotti",module,Magento_Catalog
+"Check items to add to the cart or","Seleziona gli item da aggiungere al carrello o",module,Magento_Catalog
+"select all","selezionali tutti",module,Magento_Catalog
+"In stock","Disponibile",module,Magento_Catalog
+"Out of stock","Non disponibile",module,Magento_Catalog
+"More Choices:","Altre Scelte:",module,Magento_Catalog
+"We found other products you might like!","Abbiamo trovato altri prodotti che potrebbero piacerti!",module,Magento_Catalog
+"Related Products","Prodotti Simili",module,Magento_Catalog
+"Review","Recensione",module,Magento_Review
+"You're reviewing:","Stai recensendo:",module,Magento_Review
+"* Required Fields","* Campi Necessari",module,Magento_Review
+"Write Your Own Review","Scrivi la Tua Recensione",module,Magento_Review
+"Stars","Stelle",module,Magento_Review
+"Star","Stella",module,Magento_Review
+"Submit Review","Invia Recensione",module,Magento_Review
+"Your Rating","La tua recensione",module,Magento_Review

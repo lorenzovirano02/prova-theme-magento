@@ -1,0 +1,25 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+/**
+ * @var $block \Magento\Framework\View\Element\Template
+ */
+?>
+
+
+
+
+<?php
+echo $this->getLayout()
+    ->createBlock('Magento\Cms\Block\Block')
+    ->setBlockId('banner-block')
+    ->toHtml();
+?>
+
+<div>
+    <h1>Pippo</h1>
+</div>
+

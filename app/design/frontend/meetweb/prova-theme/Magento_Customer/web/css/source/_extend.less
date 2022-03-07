@@ -1,0 +1,69 @@
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common = true) {
+    .login-child__container{
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 20px;
+    }
+    .background__form{
+        background: linear-gradient(90deg, rgba(255,192,36,0.6601234243697479) 0%, rgba(255,134,0,0.5340730042016807) 100%);
+        padding: 15px;
+        border-radius: 5px;
+    }
+    .field__container{
+        border-radius: 3px;
+        border: solid 1px #a0a1a2;
+        padding: 15px 15px 20px 15px;
+        margin: 15px 0px;
+        background: #f4f4f4;
+        -webkit-box-shadow: 0px 0px 3px 1px #c5c5c5;
+        box-shadow: 0px 0px 3px 1px #c5c5c5;
+        textarea,input{
+            background: #f4f4f4;
+            padding: 5px;
+            border-radius: 5px;
+
+        }
+    }
+    .block-new-customer{
+        height: 100%;
+    }
+
+    .register-action-toolbar__container{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .account-information__container{
+        background: linear-gradient(90deg, rgba(255,192,36,0.6601234243697479) 0%, rgba(255,134,0,0.5340730042016807) 100%);
+        padding: 25px;
+    }
+}
+
+//
+//  Mobile @screen__s
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__s) {
+
+}
+
+
+//
+//  Mobile @screen__m
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'max') and (@break = @screen__m) {
+
+}
+
+
+//
+//  Desktop
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+
+}
